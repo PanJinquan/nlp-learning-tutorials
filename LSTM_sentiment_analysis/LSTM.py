@@ -110,6 +110,7 @@
 
 # In[1]:
 
+
 import numpy as np
 wordsList = np.load('./training_data/wordsList.npy')
 print('Loaded the word list!')
@@ -121,6 +122,7 @@ print ('Loaded the word vectors!')
 
 # In[2]:
 
+
 print(len(wordsList))
 print(wordVectors.shape)
 
@@ -128,6 +130,7 @@ print(wordVectors.shape)
 # 我们也可以在词库中搜索单词，比如 “baseball”，然后可以通过访问嵌入矩阵来得到相应的向量，如下：
 
 # In[4]:
+
 
 baseballIndex = wordsList.index('baseball')
 wordVectors[baseballIndex]
@@ -137,6 +140,7 @@ wordVectors[baseballIndex]
 # 
 
 # In[5]:
+
 
 import tensorflow as tf
 maxSeqLength = 10 #Maximum length of sentence
@@ -163,16 +167,21 @@ print(firstSentence) #Shows the row index for each word
 
 # In[6]:
 
+
 with tf.Session() as sess:
     print(tf.nn.embedding_lookup(wordVectors,firstSentence).eval().shape)
 
 
-# 在整个训练集上面构造索引之前，我们先花一些时间来可视化我们所拥有的数据类型。这将帮助我们去决定如何设置最大序列长度的最佳值。在前面的例子中，我们设置了最大长度为 10，但这个值在很大程度上取决于你输入的数据。
+# 在整个训练集上面构造索引之前，我们先花一些时间来可视化我们所拥有的数据类型。这将帮助我们去决定如何设置最大序列长度的最佳值。
+# 在前面的例子中，我们设置了最大长度为 10，但这个值在很大程度上取决于你输入的数据。
 # 
-# 训练集我们使用的是 IMDB 数据集。这个数据集包含 25000 条电影数据，其中 12500 条正向数据，12500 条负向数据。这些数据都是存储在一个文本文件中，首先我们需要做的就是去解析这个文件。正向数据包含在一个文件中，负向数据包含在另一个文件中。
+# 训练集我们使用的是 IMDB 数据集。这个数据集包含 25000 条电影数据，其中 12500 条正向数据，12500 条负向数据。
+# 这些数据都是存储在一个文本文件中，首先我们需要做的就是去解析这个文件。
+# 正向数据包含在一个文件中，负向数据包含在另一个文件中。
 # 
 
 # In[7]:
+
 
 from os import listdir
 from os.path import isfile, join
@@ -201,8 +210,9 @@ print('The average number of words in the files is', sum(numWords)/len(numWords)
 
 # In[8]:
 
+
 import matplotlib.pyplot as plt
-# get_ipython().magic('matplotlib inline')
+get_ipython().magic('matplotlib inline')
 plt.hist(numWords, 50)
 plt.xlabel('Sequence Length')
 plt.ylabel('Frequency')
@@ -214,12 +224,14 @@ plt.show()
 
 # In[9]:
 
+
 maxSeqLength = 250
 
 
 # 接下来，让我们看看如何将单个文件中的文本转换成索引矩阵，比如下面的代码就是文本中的其中一个评论。
 
 # In[10]:
+
 
 fname = positiveFiles[3] #Can use any valid index (not just 3)
 with open(fname) as f:
@@ -232,6 +244,7 @@ with open(fname) as f:
 
 # In[11]:
 
+
 # 删除标点符号、括号、问号等，只留下字母数字字符
 import re
 strip_special_chars = re.compile("[^A-Za-z0-9 ]+")
@@ -242,6 +255,7 @@ def cleanSentences(string):
 
 
 # In[12]:
+
 
 firstFile = np.zeros((maxSeqLength), dtype='int32')
 with open(fname) as f:
@@ -258,9 +272,11 @@ with open(fname) as f:
 firstFile
 
 
-# 现在，我们用相同的方法来处理全部的 25000 条评论。我们将导入电影训练集，并且得到一个 25000 * 250 的矩阵。这是一个计算成本非常高的过程，可以直接使用理好的索引矩阵文件。
+# 现在，我们用相同的方法来处理全部的 25000 条评论。我们将导入电影训练集，并且得到一个 25000 * 250 的矩阵。
+# 这是一个计算成本非常高的过程，可以直接使用理好的索引矩阵文件。
 
 # In[13]:
+
 
 # ids = np.zeros((numFiles, maxSeqLength), dtype='int32')
 # fileCounter = 0
@@ -302,12 +318,14 @@ firstFile
 
 # In[14]:
 
+
 ids = np.load('./training_data/idsMatrix.npy')
 
 
 # ## 辅助函数
 
 # In[15]:
+
 
 from random import randint
 
@@ -343,6 +361,7 @@ def getTestBatch():
 
 # In[27]:
 
+
 batchSize = 24
 lstmUnits = 64
 numClasses = 2
@@ -358,6 +377,7 @@ iterations = 50000
 
 # In[28]:
 
+
 import tensorflow as tf
 tf.reset_default_graph()
 
@@ -372,6 +392,7 @@ input_data = tf.placeholder(tf.int32, [batchSize, maxSeqLength])
 
 # In[29]:
 
+
 data = tf.Variable(tf.zeros([batchSize, maxSeqLength, numDimensions]),dtype=tf.float32)
 data = tf.nn.embedding_lookup(wordVectors,input_data)
 
@@ -383,6 +404,7 @@ data = tf.nn.embedding_lookup(wordVectors,input_data)
 # 
 
 # In[30]:
+
 
 lstmCell = tf.contrib.rnn.BasicLSTMCell(lstmUnits)
 lstmCell = tf.contrib.rnn.DropoutWrapper(cell=lstmCell, output_keep_prob=0.75)
@@ -397,6 +419,7 @@ value, _ = tf.nn.dynamic_rnn(lstmCell, data, dtype=tf.float32)
 
 # In[31]:
 
+
 weight = tf.Variable(tf.truncated_normal([lstmUnits, numClasses]))
 bias = tf.Variable(tf.constant(0.1, shape=[numClasses]))
 value = tf.transpose(value, [1, 0, 2])
@@ -409,6 +432,7 @@ prediction = (tf.matmul(last, weight) + bias)
 
 # In[32]:
 
+
 correctPred = tf.equal(tf.argmax(prediction,1), tf.argmax(labels,1))
 accuracy = tf.reduce_mean(tf.cast(correctPred, tf.float32))
 
@@ -416,6 +440,7 @@ accuracy = tf.reduce_mean(tf.cast(correctPred, tf.float32))
 # 之后，我们使用一个标准的交叉熵损失函数来作为损失值。对于优化器，我们选择 Adam，并且采用默认的学习率。
 
 # In[33]:
+
 
 loss = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=prediction, labels=labels))
 optimizer = tf.train.AdamOptimizer().minimize(loss)
@@ -439,6 +464,7 @@ optimizer = tf.train.AdamOptimizer().minimize(loss)
 # 
 
 # In[36]:
+
 
 sess = tf.InteractiveSession()
 saver = tf.train.Saver()
@@ -472,6 +498,7 @@ for i in range(iterations):
 
 # In[37]:
 
+
 sess = tf.InteractiveSession()
 saver = tf.train.Saver()
 saver.restore(sess, tf.train.latest_checkpoint('models'))
@@ -480,6 +507,7 @@ saver.restore(sess, tf.train.latest_checkpoint('models'))
 # 然后，从我们的测试集中导入一些电影评论。请注意，这些评论是模型从来没有看见过的。
 
 # In[38]:
+
 
 iterations = 10
 for i in range(iterations):
