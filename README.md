@@ -1,6 +1,6 @@
-# nlp-learning-tutorials
+﻿# nlp-learning-tutorials
 
-## LSTM_sentiment_analysis LSTM ????
+## LSTM_sentiment_analysis LSTM情感分析
 
 
-## LSTM????
+## LSTM行为识别
