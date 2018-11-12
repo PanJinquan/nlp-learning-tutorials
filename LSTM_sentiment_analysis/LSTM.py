@@ -212,7 +212,7 @@ print('The average number of words in the files is', sum(numWords)/len(numWords)
 
 
 import matplotlib.pyplot as plt
-get_ipython().magic('matplotlib inline')
+# get_ipython().magic('matplotlib inline')
 plt.hist(numWords, 50)
 plt.xlabel('Sequence Length')
 plt.ylabel('Frequency')
