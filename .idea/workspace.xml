@@ -2,13 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e0c11ef-43a7-47b0-a7cb-e5bcfb2a8716" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LSTM_sentiment_analysis/my_idsMatrix.npy" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/nlp-learning-tutorials.iml" afterPath="$PROJECT_DIR$/.idea/nlp-learning-tutorials.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LSTM_sentiment_analysis/LSTM.py" afterPath="$PROJECT_DIR$/LSTM_sentiment_analysis/LSTM.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LSTM_sentiment_analysis/train_LSTM.py" afterPath="$PROJECT_DIR$/LSTM_sentiment_analysis/train_LSTM.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LSTM_sentiment_analysis/gen_index_matri.py" afterPath="$PROJECT_DIR$/LSTM_sentiment_analysis/utils/gen_index_matri.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LSTM_sentiment_analysis/load_data.py" afterPath="$PROJECT_DIR$/LSTM_sentiment_analysis/utils/load_data.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/nlp-learning-tutorials.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/nlp-learning-tutorials.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/THUCNews/models/checkpoints/model-100000.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/THUCNews/models/char_model/model-100000.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/THUCNews/models/checkpoints/model-100000.index" beforeDir="false" afterPath="$PROJECT_DIR$/THUCNews/models/char_model/model-100000.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/THUCNews/models/checkpoints/model-100000.meta" beforeDir="false" afterPath="$PROJECT_DIR$/THUCNews/models/char_model/model-100000.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/THUCNews/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/THUCNews/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/THUCNews/train_val.py" beforeDir="false" afterPath="$PROJECT_DIR$/THUCNews/train_val.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/THUCNews/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/THUCNews/utils/create_batch_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/THUCNews/utils/create_word2vec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/THUCNews/utils/files_processing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/THUCNews/word2vec/THUCNews_word2vec300.model" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/word2vec/data/segment/segment_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/word2vec/data/stop_words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/word2vec/data/stop_words.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/word2vec/models/word2Vec.model" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/word2vec/segment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/word2vec/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/word2vec/utils/create_batch_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/word2vec/utils/create_word2vec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/word2vec/utils/files_processing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/word2vec/word2vec_gensim.py" beforeDir="false" afterPath="$PROJECT_DIR$/word2vec/word2vec_gensim.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/word2vec/word2vec_tf/text8.zip" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,54 +34,53 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/nlp_learning_tutorials$tf_image_processing.coverage" NAME="tf_image_processing Coverage Results" MODIFIED="1541592035545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/nlp_learning_tutorials$test.coverage" NAME="test Coverage Results" MODIFIED="1540984308259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LSTM_sentiment_analysis" />
-    <SUITE FILE_PATH="coverage/nlp_learning_tutorials$train2.coverage" NAME="train2 Coverage Results" MODIFIED="1541565405148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/junk_mail_classification/ch" />
-    <SUITE FILE_PATH="coverage/nlp_learning_tutorials$split_text.coverage" NAME="split_text Coverage Results" MODIFIED="1541572937117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/word2vec/ch_word2vec" />
-    <SUITE FILE_PATH="coverage/nlp_learning_tutorials$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1541575220729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/junk_mail_classification/ch" />
-    <SUITE FILE_PATH="coverage/nlp_learning_tutorials$save_load_data.coverage" NAME="save_load_data Coverage Results" MODIFIED="1541562648597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/junk_mail_classification/ch" />
     <SUITE FILE_PATH="coverage/nlp_learning_tutorials$train.coverage" NAME="train Coverage Results" MODIFIED="1541489112223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/junk_mail_classification/en" />
+    <SUITE FILE_PATH="coverage/nlp_learning_tutorials$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1541575220729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/junk_mail_classification/ch" />
+    <SUITE FILE_PATH="coverage/nlp_learning_tutorials$train2.coverage" NAME="train2 Coverage Results" MODIFIED="1541565405148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/junk_mail_classification/ch" />
+    <SUITE FILE_PATH="coverage/nlp_learning_tutorials$predict.coverage" NAME="predict Coverage Results" MODIFIED="1543490433532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/THUCNews" />
     <SUITE FILE_PATH="coverage/nlp_learning_tutorials$train_LSTM.coverage" NAME="train_LSTM Coverage Results" MODIFIED="1541578325820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LSTM_sentiment_analysis" />
+    <SUITE FILE_PATH="coverage/nlp_learning_tutorials$create_word2vec.coverage" NAME="create_word2vec Coverage Results" MODIFIED="1542096821251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/THUCNews/utils" />
+    <SUITE FILE_PATH="coverage/nlp_learning_tutorials$save_load_data.coverage" NAME="save_load_data Coverage Results" MODIFIED="1541562648597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/junk_mail_classification/ch" />
     <SUITE FILE_PATH="coverage/nlp_learning_tutorials$text_cnn.coverage" NAME="text_cnn Coverage Results" MODIFIED="1541485138738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/junk_mail_classification/ch" />
+    <SUITE FILE_PATH="coverage/nlp_learning_tutorials$segment.coverage" NAME="segment Coverage Results" MODIFIED="1542019452579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/word2vec" />
+    <SUITE FILE_PATH="coverage/nlp_learning_tutorials$segment_THUCNews.coverage" NAME="segment_THUCNews Coverage Results" MODIFIED="1542089869540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/word2vec" />
+    <SUITE FILE_PATH="coverage/nlp_learning_tutorials$tf_image_processing.coverage" NAME="tf_image_processing Coverage Results" MODIFIED="1541592035545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nlp_learning_tutorials$files_processing.coverage" NAME="files_processing Coverage Results" MODIFIED="1542088700924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/word2vec/utils" />
+    <SUITE FILE_PATH="coverage/nlp_learning_tutorials$word2vec_gensim.coverage" NAME="word2vec_gensim Coverage Results" MODIFIED="1542095908435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/word2vec" />
+    <SUITE FILE_PATH="coverage/nlp_learning_tutorials$create_batch_data.coverage" NAME="create_batch_data Coverage Results" MODIFIED="1542101606866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/THUCNews/utils" />
+    <SUITE FILE_PATH="coverage/nlp_learning_tutorials$segment__1_.coverage" NAME="segment (1) Coverage Results" MODIFIED="1542084068886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/word2vec/utils" />
+    <SUITE FILE_PATH="coverage/nlp_learning_tutorials$train_val.coverage" NAME="train_val Coverage Results" MODIFIED="1542103071766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/THUCNews" />
+    <SUITE FILE_PATH="coverage/nlp_learning_tutorials$test.coverage" NAME="test Coverage Results" MODIFIED="1540984308259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LSTM_sentiment_analysis" />
+    <SUITE FILE_PATH="coverage/nlp_learning_tutorials$split_text.coverage" NAME="split_text Coverage Results" MODIFIED="1541572937117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/word2vec/ch_word2vec" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tf_image_processing.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tf_image_processing.py">
+      <file leaf-file-name="create_batch_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/THUCNews/utils/create_batch_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="68" column="14" lean-forward="true" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="761">
+              <caret line="137" selection-start-line="137" selection-end-line="137" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functional_ops.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/ops/functional_ops.py">
+      <file leaf-file-name="predict.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/THUCNews/predict.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="265" column="4" lean-forward="false" selection-start-line="265" selection-start-column="4" selection-end-line="265" selection-end-column="4" />
-              <folding />
+            <state relative-caret-position="336">
+              <caret line="173" column="34" selection-start-line="173" selection-start-column="34" selection-end-line="173" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="control_flow_ops.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/ops/control_flow_ops.py">
+      <file leaf-file-name="train_val.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/THUCNews/train_val.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="3242" column="0" lean-forward="false" selection-start-line="3242" selection-start-column="0" selection-end-line="3242" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="-1921">
+              <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+              <folding>
+                <element signature="e#42#65#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,6 +113,20 @@
         <option value="$PROJECT_DIR$/junk_mail_classification/ch/data_helpers.py" />
         <option value="$PROJECT_DIR$/test.txt" />
         <option value="$PROJECT_DIR$/tf_image_processing.py" />
+        <option value="$PROJECT_DIR$/word2vec/data/stop_words.txt" />
+        <option value="$PROJECT_DIR$/word2vec/data/source2/test1.txt" />
+        <option value="$PROJECT_DIR$/word2vec/data/source2/test0.txt" />
+        <option value="$PROJECT_DIR$/word2vec/data/source2/test2.txt" />
+        <option value="$PROJECT_DIR$/word2vec/utils/files_processing.py" />
+        <option value="$PROJECT_DIR$/word2vec/utils/create_word2vec.py" />
+        <option value="$PROJECT_DIR$/word2vec/utils/segment.py" />
+        <option value="$PROJECT_DIR$/word2vec/segment_THUCNews.py" />
+        <option value="$PROJECT_DIR$/word2vec/word2vec_gensim.py" />
+        <option value="$PROJECT_DIR$/THUCNews/utils/files_processing.py" />
+        <option value="$PROJECT_DIR$/THUCNews/utils/create_word2vec.py" />
+        <option value="$PROJECT_DIR$/THUCNews/utils/create_batch_data.py" />
+        <option value="$PROJECT_DIR$/THUCNews/train_val.py" />
+        <option value="$PROJECT_DIR$/THUCNews/predict.py" />
       </list>
     </option>
   </component>
@@ -107,24 +136,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1586" />
-    <option name="y" value="44" />
-    <option name="width" value="1958" />
-    <option name="height" value="1056" />
+    <option name="x" value="2" />
+    <option name="y" value="31" />
+    <option name="width" value="1680" />
+    <option name="height" value="956" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -135,21 +157,70 @@
               <item name="nlp-learning-tutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="nlp-learning-tutorials" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="nlp-learning-tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nlp-learning-tutorials" type="462c0819:PsiDirectoryNode" />
+              <item name="THUCNews" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nlp-learning-tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nlp-learning-tutorials" type="462c0819:PsiDirectoryNode" />
+              <item name="THUCNews" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nlp-learning-tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nlp-learning-tutorials" type="462c0819:PsiDirectoryNode" />
+              <item name="THUCNews" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nlp-learning-tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nlp-learning-tutorials" type="462c0819:PsiDirectoryNode" />
+              <item name="THUCNews" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nlp-learning-tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nlp-learning-tutorials" type="462c0819:PsiDirectoryNode" />
+              <item name="word2vec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nlp-learning-tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nlp-learning-tutorials" type="462c0819:PsiDirectoryNode" />
+              <item name="word2vec" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nlp-learning-tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nlp-learning-tutorials" type="462c0819:PsiDirectoryNode" />
+              <item name="word2vec" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="THUCNews_word2Vec" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/word2vec/models/未命名文件夹" />
+      <recent name="$PROJECT_DIR$/THUCNews/data" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\tensorflow\nlp-learning-tutorials\junk_mail_classification\ch" />
+      <recent name="$PROJECT_DIR$/THUCNews" />
+      <recent name="$PROJECT_DIR$/word2vec" />
+      <recent name="$PROJECT_DIR$/word2vec/data/source2" />
+      <recent name="$PROJECT_DIR$/word2vec/utils" />
+      <recent name="$PROJECT_DIR$/word2vec/data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -164,116 +235,121 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tf_image_processing">
-    <configuration name="split_text" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.predict">
+    <configuration name="create_batch_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="nlp-learning-tutorials" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/word2vec/ch_word2vec" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/THUCNews/utils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="nlp-learning-tutorials" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/word2vec/ch_word2vec/split_text.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/THUCNews/utils/create_batch_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="tf_image_processing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="create_word2vec" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="nlp-learning-tutorials" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/THUCNews/utils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="nlp-learning-tutorials" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf_image_processing.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/THUCNews/utils/create_word2vec.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="train (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="predict" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="nlp-learning-tutorials" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/junk_mail_classification/ch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/THUCNews" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="nlp-learning-tutorials" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/junk_mail_classification/ch/train.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/THUCNews/predict.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="train2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="train_val" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="nlp-learning-tutorials" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/junk_mail_classification/ch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/THUCNews" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="nlp-learning-tutorials" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/junk_mail_classification/ch/train2.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/THUCNews/train_val.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="train_LSTM" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="word2vec_gensim" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="nlp-learning-tutorials" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LSTM_sentiment_analysis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/word2vec" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="nlp-learning-tutorials" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LSTM_sentiment_analysis/train_LSTM.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/word2vec/word2vec_gensim.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.train (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.train2" />
-      <item index="2" class="java.lang.String" itemvalue="Python.split_text" />
-      <item index="3" class="java.lang.String" itemvalue="Python.train_LSTM" />
-      <item index="4" class="java.lang.String" itemvalue="Python.tf_image_processing" />
+    <list>
+      <item itemvalue="Python.word2vec_gensim" />
+      <item itemvalue="Python.create_word2vec" />
+      <item itemvalue="Python.create_batch_data" />
+      <item itemvalue="Python.train_val" />
+      <item itemvalue="Python.predict" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.tf_image_processing" />
-        <item index="1" class="java.lang.String" itemvalue="Python.train_LSTM" />
-        <item index="2" class="java.lang.String" itemvalue="Python.train (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.split_text" />
-        <item index="4" class="java.lang.String" itemvalue="Python.train2" />
+      <list>
+        <item itemvalue="Python.predict" />
+        <item itemvalue="Python.train_val" />
+        <item itemvalue="Python.create_batch_data" />
+        <item itemvalue="Python.create_word2vec" />
+        <item itemvalue="Python.word2vec_gensim" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -286,27 +362,32 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1586" y="44" width="1958" height="1056" extended-state="0" />
+    <frame x="2" y="31" width="1680" height="956" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.113804005" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48044693" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30578512" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32960895" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32960895" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16805722" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37485844" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="8" weight="0.3295583" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +426,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/LSTM_sentiment_analysis/train_LSTM.py</url>
-          <line>36</line>
+          <line>34</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -363,195 +444,141 @@
           <line>48</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/word2vec/utils/segment.py</url>
+          <line>216</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/word2vec/utils/files_processing.py</url>
+          <line>253</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/word2vec/utils/files_processing.py</url>
+          <line>148</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/THUCNews/utils/create_word2vec.py</url>
+          <line>213</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/THUCNews/utils/create_word2vec.py</url>
+          <line>230</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/THUCNews/utils/create_word2vec.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/word2vec/word2vec_gensim.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/word2vec/word2vec_gensim.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/THUCNews/utils/create_word2vec.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="35" />
+      <option name="time" value="79" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/junk_mail_classification/ch/train.py">
+    <entry file="file://$PROJECT_DIR$/THUCNews/utils/create_batch_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="2244">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/THUCNews/train_val.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
           <folding>
             <element signature="e#42#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/word2vec/ch_word2vec/split_text.py">
+    <entry file="file://$PROJECT_DIR$/THUCNews/predict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-          <folding />
+        <state>
+          <caret selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/junk_mail_classification/ch/word2vec_helpers.py">
+    <entry file="file://$PROJECT_DIR$/THUCNews/utils/create_word2vec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-          <folding>
-            <element signature="e#143#152#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/junk_mail_classification/ch/train2.py">
+    <entry file="file://$PROJECT_DIR$/THUCNews/utils/create_batch_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1403">
-          <caret line="61" column="17" lean-forward="false" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
-          <folding>
-            <element signature="e#42#65#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2244">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/junk_mail_classification/ch/save_load_data.py">
+    <entry file="file://$PROJECT_DIR$/THUCNews/train_val.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4278">
-          <caret line="186" column="64" lean-forward="false" selection-start-line="186" selection-start-column="64" selection-end-line="186" selection-end-column="64" />
-          <folding>
-            <element signature="e#188#199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/junk_mail_classification/ch/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="833">
+          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
           <folding>
             <element signature="e#42#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/junk_mail_classification/ch/text_cnn.py">
+    <entry file="file://$PROJECT_DIR$/THUCNews/predict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1495">
-          <caret line="65" column="27" lean-forward="false" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
-          <folding />
+        <state>
+          <caret selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/junk_mail_classification/en/train.py">
+    <entry file="file://$PROJECT_DIR$/THUCNews/utils/create_word2vec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="221">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/junk_mail_classification/ch/data_helpers.py">
+    <entry file="file://$PROJECT_DIR$/THUCNews/utils/create_batch_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#19#37#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="2193">
+          <caret line="134" column="23" lean-forward="true" selection-start-line="134" selection-start-column="23" selection-end-line="134" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/junk_mail_classification/ch/word2vec_helpers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="11" />
-          <folding>
-            <element signature="e#143#152#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LSTM_sentiment_analysis/training_data/test.txt" />
-    <entry file="file://$PROJECT_DIR$/LSTM_sentiment_analysis/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="135" column="25" lean-forward="false" selection-start-line="135" selection-start-column="14" selection-end-line="135" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/contrib/learn/python/learn/preprocessing/text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="132" column="6" lean-forward="false" selection-start-line="132" selection-start-column="6" selection-end-line="132" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/junk_mail_classification/en/text_cnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="57" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/junk_mail_classification/ch/text_cnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="65" column="27" lean-forward="false" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/core/protobuf/config_pb2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="1154" column="0" lean-forward="false" selection-start-line="1154" selection-start-column="0" selection-end-line="1154" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/junk_mail_classification/en/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="50" column="36" lean-forward="false" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/gensim/models/word2vec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="644" column="8" lean-forward="false" selection-start-line="644" selection-start-column="8" selection-end-line="644" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/core/protobuf/config_pb2.py" />
+    <entry file="file://$PROJECT_DIR$/junk_mail_classification/en/train.py" />
+    <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/gensim/models/word2vec.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
-          <caret line="1598" column="0" lean-forward="false" selection-start-line="1598" selection-start-column="0" selection-end-line="1598" selection-end-column="0" />
-          <folding />
+          <caret line="1598" selection-start-line="1598" selection-end-line="1598" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/word2vec/word2vec/word2vec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="178" column="34" lean-forward="false" selection-start-line="178" selection-start-column="34" selection-end-line="178" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LSTM_sentiment_analysis/utils/gen_index_matri.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/word2vec/word2vec/word2vec.py" />
+    <entry file="file://$PROJECT_DIR$/LSTM_sentiment_analysis/utils/gen_index_matri.py" />
     <entry file="file://$PROJECT_DIR$/junk_mail_classification/ch/train.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="65" column="58" lean-forward="false" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="58" />
+          <caret line="65" column="58" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="58" />
           <folding>
             <element signature="e#42#65#0" expanded="true" />
           </folding>
@@ -561,114 +588,197 @@
     <entry file="file://$PROJECT_DIR$/LSTM_sentiment_analysis/train_LSTM.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
           <folding>
             <element signature="e#166#190#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/junk_mail_classification/en/data_helpers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1188">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/junk_mail_classification/en/data_helpers.py" />
     <entry file="file://$PROJECT_DIR$/junk_mail_classification/ch/data_helpers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="88" column="43" lean-forward="false" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="43" />
-          <folding />
+          <caret line="88" column="43" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LSTM_sentiment_analysis/utils/load_wordVectors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LSTM_sentiment_analysis/utils/get_data_batch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/word2vec/ch_word2vec/split_text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM_sentiment_analysis/utils/load_wordVectors.py" />
+    <entry file="file://$PROJECT_DIR$/LSTM_sentiment_analysis/utils/get_data_batch.py" />
+    <entry file="file://$PROJECT_DIR$/word2vec/ch_word2vec/split_text.py" />
     <entry file="file://$PROJECT_DIR$/junk_mail_classification/ch/word2vec_helpers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
-          <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-          <folding>
-            <element signature="e#143#152#0" expanded="false" />
-          </folding>
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/junk_mail_classification/ch/save_load_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
-          <caret line="186" column="64" lean-forward="false" selection-start-line="186" selection-start-column="64" selection-end-line="186" selection-end-column="64" />
+          <caret line="186" column="64" selection-start-line="186" selection-start-column="64" selection-end-line="186" selection-end-column="64" />
           <folding>
             <element signature="e#188#199#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/junk_mail_classification/ch/train2.py">
+    <entry file="file://$PROJECT_DIR$/junk_mail_classification/ch/train2.py" />
+    <entry file="file://$PROJECT_DIR$/test.txt" />
+    <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/ops/control_flow_ops.py" />
+    <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/ops/functional_ops.py" />
+    <entry file="file://$PROJECT_DIR$/tf_image_processing.py" />
+    <entry file="file://$PROJECT_DIR$/THUCNews/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="68">
+            <caret line="4" selection-start-line="4" selection-end-line="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/word2vec/data/segment/in_the_name_of_people_segment_0.txt" />
+    <entry file="file://$PROJECT_DIR$/word2vec/data/stop_words.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="23" column="77" lean-forward="false" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/word2vec/data/source2/test2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/word2vec/data/source2/test1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/word2vec/segment.py" />
+    <entry file="file://$PROJECT_DIR$/word2vec/data/source2/test0.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow-py35/lib/python3.5/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="331" selection-start-line="331" selection-end-line="331" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow-py35/lib/python3.5/site-packages/jieba/_compat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/word2vec/data/THUCNews_segment/segment_0.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/word2vec/utils/files_processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="262" selection-start-line="262" selection-end-line="262" />
           <folding>
-            <element signature="e#42#65#0" expanded="true" />
+            <element signature="e#190#203#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.txt">
+    <entry file="file://$PROJECT_DIR$/word2vec/utils/create_batch_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-878">
+          <caret line="60" column="69" lean-forward="true" selection-start-line="60" selection-start-column="69" selection-end-line="60" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/ops/control_flow_ops.py">
+    <entry file="file://$PROJECT_DIR$/word2vec/utils/segment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="3242" column="0" lean-forward="false" selection-start-line="3242" selection-start-column="0" selection-end-line="3242" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="102">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/ops/functional_ops.py">
+    <entry file="file://$PROJECT_DIR$/word2vec/segment_THUCNews.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="265" column="4" lean-forward="false" selection-start-line="265" selection-start-column="4" selection-end-line="265" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="470">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tf_image_processing.py">
+    <entry file="file://$PROJECT_DIR$/word2vec/utils/create_word2vec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="68" column="14" lean-forward="true" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="397">
+          <caret line="105" column="32" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/word2vec/data/segment/segment_0.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/word2vec/word2vec_gensim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="44" column="34" lean-forward="true" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+          <folding>
+            <element signature="e#190#224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/THUCNews/utils/files_processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="262" column="44" selection-start-line="262" selection-start-column="18" selection-end-line="262" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/THUCNews/utils/create_word2vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2771">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/THUCNews/utils/create_batch_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="761">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/THUCNews/predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="173" column="34" selection-start-line="173" selection-start-column="34" selection-end-line="173" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/THUCNews/train_val.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1921">
+          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+          <folding>
+            <element signature="e#42#65#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

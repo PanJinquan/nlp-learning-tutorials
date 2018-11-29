@@ -65,13 +65,11 @@ def text_predict(files_list, labels_file, models_path, word2vec_path, batch_size
                 start = i * batch_size
                 end = min((i + 1) * batch_size, sample_num)
                 batch_files = files_list[start:end]
-                batch_labels = labels_list[start:end]
 
                 # 读取文件内容，字词分割
-                batch_content, batch_labels = files_processing.read_files_labels(batch_files,
-                                                                                 batch_labels,
-                                                                                 max_sentence_length,
-                                                                                 one_line=False)
+                batch_content= files_processing.read_files_list_to_segment(batch_files,
+                                                                max_sentence_length,
+                                                                padding_token='<PAD>')
                 # [1]将字词转为索引矩阵,再映射为词向量
                 batch_indexMat = create_word2vec.word2indexMat(w2vModel, batch_content, max_sentence_length)
                 val_batch_data = create_word2vec.indexMat2vector_lookup(w2vModel, batch_indexMat)
@@ -165,16 +163,17 @@ def batch_predict(val_dir,labels_file,models_path,word2vec_path,batch_size):
 def main():
     # Data preprocess
     labels_file = 'data/THUCNews_labels.txt'
-    word2vec_path = 'word2vec/THUCNews_word2vec300.model'
-    models_path='models/checkpoints/model-100000'
+    # word2vec_path = 'word2vec/THUCNews_word2vec300.model'
+    word2vec_path = "../word2vec/models/THUCNews_word2Vec/THUCNews_word2Vec_128.model"
+    models_path='models/checkpoints/model-30000'
     batch_size = 128
     val_dir = './data/val_data'
 
-    # batch_predict(val_dir=val_dir,
-    #       labels_file=labels_file,
-    #       models_path=models_path,
-    #       word2vec_path=word2vec_path,
-    #       batch_size=batch_size)
+    batch_predict(val_dir=val_dir,
+          labels_file=labels_file,
+          models_path=models_path,
+          word2vec_path=word2vec_path,
+          batch_size=batch_size)
 
     test_path='/home/ubuntu/project/tfTest/THUCNews/my_test'
     files_list = files_processing.get_files_list(test_path,postfix='*.txt')

@@ -51,7 +51,7 @@ def train(train_dir,val_dir,labels_file,word2vec_path,batch_size,max_steps,log_s
                                                  shuffle=False, one_hot=True)
 
     print("train data info *****************************")
-    create_word2vec.info_npy(train_file_list)
+    train_nums=create_word2vec.info_npy(train_file_list)
     print("val data   info *****************************")
     val_nums = create_word2vec.info_npy(val_file_list)
     print("labels_set info *****************************")
@@ -174,7 +174,7 @@ def train(train_dir,val_dir,labels_file,word2vec_path,batch_size,max_steps,log_s
 def main():
     # Data preprocess
     labels_file = 'data/THUCNews_labels.txt'
-    word2vec_path = 'word2vec/THUCNews_word2vec300.model'
+    word2vec_path = "../word2vec/models/THUCNews_word2Vec/THUCNews_word2Vec_128.model"
 
     max_steps = 100000  # 迭代次数
     batch_size = 128
