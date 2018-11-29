@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e0c11ef-43a7-47b0-a7cb-e5bcfb2a8716" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/nlp-learning-tutorials.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/nlp-learning-tutorials.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/THUCNews/models/checkpoints/model-100000.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/THUCNews/models/char_model/model-100000.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/THUCNews/models/checkpoints/model-100000.index" beforeDir="false" afterPath="$PROJECT_DIR$/THUCNews/models/char_model/model-100000.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/THUCNews/models/checkpoints/model-100000.meta" beforeDir="false" afterPath="$PROJECT_DIR$/THUCNews/models/char_model/model-100000.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/THUCNews/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/THUCNews/predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/THUCNews/train_val.py" beforeDir="false" afterPath="$PROJECT_DIR$/THUCNews/train_val.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/THUCNews/utils/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THUCNews/utils/create_batch_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THUCNews/utils/create_word2vec.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THUCNews/utils/files_processing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THUCNews/word2vec/THUCNews_word2vec300.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/word2vec/data/segment/segment_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/word2vec/data/stop_words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/word2vec/data/stop_words.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/word2vec/models/word2Vec.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/word2vec/segment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/word2vec/utils/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/word2vec/utils/create_batch_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/word2vec/utils/create_word2vec.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/word2vec/utils/files_processing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/word2vec/word2vec_gensim.py" beforeDir="false" afterPath="$PROJECT_DIR$/word2vec/word2vec_gensim.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/word2vec/word2vec_tf/text8.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/THUCNews/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/THUCNews/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,14 +51,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="train_val.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="train_val.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/THUCNews/train_val.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1921">
-              <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+            <state relative-caret-position="425">
+              <caret line="191" column="22" lean-forward="true" selection-start-line="191" selection-start-column="22" selection-end-line="191" selection-end-column="22" />
               <folding>
                 <element signature="e#42#65#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/THUCNews/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="153">
+                <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -127,6 +117,7 @@
         <option value="$PROJECT_DIR$/THUCNews/utils/create_batch_data.py" />
         <option value="$PROJECT_DIR$/THUCNews/train_val.py" />
         <option value="$PROJECT_DIR$/THUCNews/predict.py" />
+        <option value="$PROJECT_DIR$/THUCNews/README.md" />
       </list>
     </option>
   </component>
@@ -190,13 +181,6 @@
               <item name="nlp-learning-tutorials" type="462c0819:PsiDirectoryNode" />
               <item name="word2vec" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nlp-learning-tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nlp-learning-tutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="word2vec" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="THUCNews_word2Vec" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -628,16 +612,6 @@
     <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/ops/control_flow_ops.py" />
     <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/ops/functional_ops.py" />
     <entry file="file://$PROJECT_DIR$/tf_image_processing.py" />
-    <entry file="file://$PROJECT_DIR$/THUCNews/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="68">
-            <caret line="4" selection-start-line="4" selection-end-line="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/word2vec/data/segment/in_the_name_of_people_segment_0.txt" />
     <entry file="file://$PROJECT_DIR$/word2vec/data/stop_words.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -774,11 +748,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/THUCNews/train_val.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1921">
-          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+        <state relative-caret-position="425">
+          <caret line="191" column="22" lean-forward="true" selection-start-line="191" selection-start-column="22" selection-end-line="191" selection-end-column="22" />
           <folding>
             <element signature="e#42#65#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/THUCNews/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="153">
+            <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
